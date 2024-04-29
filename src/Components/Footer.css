@@ -13,7 +13,7 @@
 	text-align: left;
 	font: bold 14px sans-serif;
 	padding: 16px 22px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
 }
 

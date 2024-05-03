@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import data from './Gallery.json';
-import EventCard from './EventCard';
+import EventCard from './GalleryCard';
 import "./Gallery.css"
-import ganesh from "../../assests/images/Gallery/GaneshUtsav/3.jpg"
-import shiv from "../../assests/images/Gallery/Shivjayanti/13.jpg"
-import arbh from "../../assests/images/Gallery/Aarambh/8.webp"
-import bhr from "../../assests/images/Gallery/Bharari/8.jpg"
-import gen from "../../assests/images/Gallery/General/Trip/9.jpg"
+// import ganesh from "/Gallery/GaneshUtsav/3.jpg"
+// import shiv from "Gallery/Shivjayanti/13.jpg"
+// import arbh from "Gallery/Aarambh/8.webp"
+// import bhr from "/Gallery/Bharari/8.jpg"
+// import gen from "/Gallery/General/Trip/9.jpg"
 
 
 
@@ -20,27 +20,27 @@ const Gallery = () => {
     <Navbar/>
     <div className="gallery">
       <div className="g-screen">
-        <h1>Our Events</h1>
+        <h1>Our Gallery</h1>
 
         <div className="all-events">
           <EventCard
           name = 'GaneshUtsav'
-          image = {ganesh}
+          image = '/Gallery/GaneshUtsav/3.jpg'
           event = "GaneshUtsav"
           />
           <EventCard
           name = 'Shiv Jayanti'
-          image = {shiv}
+          image = '/Gallery/Shivjayanti/13.jpg'
           event = "Shivjayanti"
           />
           <EventCard
           name = 'Aarambh'
-          image = {arbh}
+          image = '/Gallery/Aarambh/8.webp'
           event = "Aarambh"
           />
           <EventCard
           name = 'Bharari'
-          image = {bhr}
+          image = '/Gallery/Bharari/8.jpg'
           event = "Bharari"
           />
           <EventCard
@@ -55,7 +55,7 @@ const Gallery = () => {
           />
           <EventCard
           name = 'General'
-          image = {gen}
+          image = '/Gallery/General/Trip/9.jpg'
           event = "General"
           />
           

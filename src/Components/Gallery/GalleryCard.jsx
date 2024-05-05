@@ -27,9 +27,11 @@ const EventCard = (props) => {
     <Link to={productLink}>
   <div class="card">
     <div class="wrapper">
-      <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg" alt="Mythrill" class="cover-image" />
+      {/* <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg" alt="Mythrill" class="cover-image" /> */}
+      <img src="/Gallery/ganeshbg.jpg" alt="Mythrill" class="cover-image" />
     </div>
-    <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png" alt="Mythrill" class="title" />
+    {/* <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png" alt="Mythrill" class="title" /> */}
+    <img src="/Gallery/gname.png" alt="Mythrill" class="title" />
     {/* <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp" alt="Mythrill" class="character" /> */}
     <img src="/Gallery/ganesha.png" alt="Mythrill" class="character" />
   </div>

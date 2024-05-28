@@ -6,25 +6,6 @@ const EventCard = (props) => {
     const productLink = `/photos?event=${props.name}`;
   return (
     <>
-      {/* <div class="card">
-        <div className="title">
-            <h2>{props.name} </h2>
-        </div>
-        <div className="c-contain">
-          <div className="c-img">
-            <img src={props.img} alt="" />
-          </div>
-          <div className="c-detial">
-            <p>
-            {props.detial}
-            </p>
-          </div>
-          
-        </div>
-        <div className="c-btn">
-          <Link to={productLink} ><p>View Photos</p></Link>
-        </div>
-      </div> */}
 
 
 <div class="wrap animate pop">

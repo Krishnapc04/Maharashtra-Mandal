@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
-import data from './Gallery.json';
+// import data from './Gallery.json';
 import EventCard from './GalleryCard';
 import "./Gallery.css"
 // import ganesh from "/Gallery/GaneshUtsav/3.jpg"
@@ -25,38 +25,52 @@ const Gallery = () => {
         <div className="all-events">
           <EventCard
           name = 'GaneshUtsav'
-          image = '/Gallery/GaneshUtsav/3.jpg'
+          ibg = '/Gallery/GCard/ganeshbg.jpg'
           event = "GaneshUtsav"
+          iname='/Gallery/GCard/gname.png'
+          iimg='/Gallery/GCard/ganesha.png'
           />
           <EventCard
           name = 'Shiv Jayanti'
-          image = '/Gallery/Shivjayanti/13.jpg'
+          ibg = '/Gallery/Shivjayanti/13.jpg'
           event = "Shivjayanti"
+          iname =""
+          iimg=""
           />
           <EventCard
           name = 'Aarambh'
-          image = '/Gallery/Aarambh/8.webp'
+          ibg = '/Gallery/Aarambh/8.webp'
           event = "Aarambh"
+          iname =""
+          iimg=""
           />
           <EventCard
           name = 'Bharari'
-          image = '/Gallery/Bharari/8.jpg'
+          ibg = '/Gallery/Bharari/8.jpg'
           event = "Bharari"
+          iname =""
+          iimg=""
           />
           <EventCard
           name = 'Food Fest'
-          image = ''
+          ibg = '/Gallery/GCard/fbg.png'
           event = "FoodFest"
+          iname ="/Gallery/GCard/gname.png"
+          iimg="/Gallery/GCard/foodup.png"
           />
           <EventCard
           name = 'Misal Paw Party'
-          image = ''
+          ibg = ''
           event = "Misal Paw Party"
+          iname =""
+          iimg=""
           />
           <EventCard
           name = 'General'
-          image = '/Gallery/General/Trip/9.jpg'
+          ibg = '/Gallery/General/Trip/9.jpg'
           event = "General"
+          iname =""
+          iimg=""
           />
           
 

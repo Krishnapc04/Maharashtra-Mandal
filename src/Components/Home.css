@@ -1,0 +1,49 @@
+
+.Home{
+    background: url('/public/Gallery/Images/bg3.png');
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    & img{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%,-55%);
+    }
+}
+.h-container{
+    backdrop-filter: blur(0px);
+    background: rgba(255, 255, 255, 0.088);
+    overflow: hidden;
+}
+.h-glass{
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    color: black;
+}
+.h-info{
+    backdrop-filter: blur(4px);
+    background: rgb(237 205 160 / 77%);
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    & h1{
+        text-align: center;
+    }
+    & p{
+        padding: .8rem 2rem 1.6rem 2rem;
+        font-weight: 400;
+    }
+}
+ .h-origin{
+    margin-top: 3rem;
+ }
+ .h-vision{
+    margin-top: 3rem;
+ }

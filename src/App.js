@@ -7,12 +7,14 @@ import Event from './Components/Events/Event.jsx';
 import Gallery from './Components/Gallery/Gallery.jsx';
 import Team from './Components/Team/Team.jsx';
 import PhotoScreen from './Components/Gallery/PhotoScreen.jsx';
+import Navbar from './Components/Navbar.jsx';
 
 // import About from './components/About';
 
 const App = () => {
   return (
     <Router>
+      {/* <Navbar/> */}
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />

@@ -55,7 +55,7 @@ const PhotoScreen = () => {
 
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <div className="ph-screen" onKeyDown={handleKeyDown} tabIndex={0}>
         <div className="ph-nav">
           <p>{eventName}</p>

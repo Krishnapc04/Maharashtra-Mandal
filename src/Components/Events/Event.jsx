@@ -8,7 +8,9 @@ const Event = () => {
   return (
     <>
     <Navbar/>
-
+    <div className="e-bg">
+      
+    </div>
     <div className="event-screen">
 
     <h1>Our Event</h1>

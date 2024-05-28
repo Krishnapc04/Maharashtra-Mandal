@@ -38,7 +38,7 @@ const Home = () => {
   return (
     <div>
       <div className="Home">
-      <img src={logo} alt="Logo" style={{ width: `${logoWidth}%`, transition: 'width .2s'}} />
+      <img src={logo} alt="Logo" style={{ width: `${logoWidth}%`, transition: 'width 0s'}} />
       </div>
       <Navbar/>
       <div className="h-container">
